@@ -99,6 +99,10 @@ header{
     cursor: pointer;
 }
 
+.hero-left > div > button:hover{
+    opacity: 0.8;
+}
+
 .hero-left > div > p{
     color: hsl(192, 100%, 9%);
 }
@@ -133,7 +137,7 @@ header{
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(179, 168, 168, 0.384);
     margin-bottom: 30px;
-    column-gap: 30px;
+    column-gap: 150px;
 }
 
 .info1{
@@ -144,7 +148,7 @@ header{
     border-radius: 20px;
     box-shadow: 0 6px 12px rgba(179, 168, 168, 0.384);
     margin-bottom: 30px;
-    column-gap: 30px;
+    column-gap: 150px;
 }
 
 .info-left{
@@ -207,7 +211,7 @@ footer{
 }
 
 .mt-10{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .site_info{
@@ -217,13 +221,13 @@ footer{
 
 .icon{
     display: inline-block;
-    width: 5%;
+    width: 10%;
     vertical-align: top;
 }
 
 .site_info_text{
     display: inline-block;
-    width: 90%;
+    width: 85%;
     vertical-align: top;
 }
 
@@ -267,6 +271,10 @@ footer{
     cursor: pointer;
 }
 
+.card > button:hover{
+    opacity: 0.8;
+}
+
 .social_media > button{
     width: 30px;
     height: 30px;
@@ -277,6 +285,10 @@ footer{
 }
 
 @media only screen and (max-width: 420px){
+    .logo > img{
+        width: 150px;
+        height: 25px;
+    }
     .hero{
         grid-template-columns: auto;
         padding: 20px;
